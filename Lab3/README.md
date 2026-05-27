@@ -47,10 +47,10 @@ This circuit also incorporates an **Enable (EN)** control signal. When the Enabl
 The simulation behavior was verified using GHDL and visualized with GTKWave timing diagrams. The simulated waveforms precisely follow the truth tables specified in the lab manual.
 
 ### 1. Priority Encoder Simulation Waveform
-![Encoder Waveform](Lab%203/encoder_waveform.png)
+![Encoder Waveform](encoder_wave.png)
 
 ### 2. Decoder Simulation Waveform
-![Decoder Waveform](Lab%203/decoder_waveform.png)
+![Decoder Waveform](decoder_wave.png)
 
 ## Discussion and Conclusion
 In this lab exercise, combinational logic circuits for a 4-to-2 Priority Encoder and a 2-to-4 Decoder were successfully modeled and simulated using VHDL. Through tracking behavioral modeling methods like `case` and `when` conditional statement mappings, we observed how hardware prioritizes parallel data lines or expands encoded lines into independent signals.
